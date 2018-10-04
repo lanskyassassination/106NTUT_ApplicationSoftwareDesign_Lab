@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
-import android.widget.TextView;
 
 public class aty2 extends AppCompatActivity {
 
@@ -19,7 +18,7 @@ public class aty2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.main2);
         RadioGroup rg1 = (RadioGroup) findViewById(R.id.radioGroup1);
         rg1.setOnCheckedChangeListener((new RadioGroup.OnCheckedChangeListener() {
             @Override
