@@ -34,28 +34,28 @@
         android:layout_height="wrap_content">
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/radio0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="無糖" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="少糖" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="半糖" />
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radio3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -77,21 +77,21 @@
         tools:layout_editor_absoluteY="128dp">
 
         <RadioButton
-            android:id="@+id/radioButton7"
+            android:id="@+id/radioButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="微冰" />
 
         <RadioButton
-            android:id="@+id/radioButton6"
+            android:id="@+id/radioButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="少冰" />
 
         <RadioButton
-            android:id="@+id/radioButton5"
+            android:id="@+id/radioButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
