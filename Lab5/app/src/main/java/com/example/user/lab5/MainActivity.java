@@ -37,14 +37,14 @@ public class MainActivity extends AppCompatActivity {
 
                     dialog.setNegativeButton("自定義的Toast", new DialogInterface.OnClickListener() {
                         @Override
-                        public void onClick(DialogInterface dialog, int i) {
+                        public void onClick(DialogInterface dialogInterface, int i) {
                             showToast();
                         }
                     });
 
                     dialog.setPositiveButton("顯示List", new DialogInterface.OnClickListener() {
                         @Override
-                        public void onClick(DialogInterface dialog, int i) {
+                        public void onClick(DialogInterface dialogInterface, int i) {
                             showListDialog();
                         }
                     });
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         toast.setGravity(Gravity.TOP, 0, 50);
         toast.setDuration(Toast.LENGTH_SHORT);
         LayoutInflater inflater = getLayoutInflater();
-        View layout = inflater.inflate(R.layout.custom_toast, (ViewGroup) findViewById(R.id.showCustom));
+        View layout = inflater.inflate(R.layout.custom_toast, (ViewGroup) findViewById(R.id.custom_toast));
         toast.setView(layout);
         toast.show();
     }
