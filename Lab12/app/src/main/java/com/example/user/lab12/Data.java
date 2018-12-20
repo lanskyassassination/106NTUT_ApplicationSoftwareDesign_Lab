@@ -1,7 +1,5 @@
 package com.example.user.lab12;
 
-import javax.xml.transform.Result;
-
 public class Data {
     Result result;
 

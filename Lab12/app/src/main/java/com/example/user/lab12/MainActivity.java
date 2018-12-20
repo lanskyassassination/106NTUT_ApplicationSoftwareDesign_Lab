@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Request req = new Request.Builder().url("https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=55ec6d6e-dc5c-4268-a725-d04cc262172b").build();
-
                 new OkHttpClient().newCall(req).enqueue(new Callback() {
                     @Override
                     public void onFailure(Request request, IOException e) {
@@ -61,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onResponse(Response response) throws IOException {
-                        sendBroadcast(new Intent("Mymessage").putExtra("jason", response.body().string()));
+                        sendBroadcast(new Intent("Mymessage").putExtra("json", response.body().string()));
                     }
                 });
             }
@@ -71,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected  void onDestroy(){
         super.onDestroy();
-
         unregisterReceiver(receiver);
     }
 }
